@@ -119,7 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+--- !u!1 &1064838952
+=======
 --- !u!1 &430504826
+>>>>>>> 4f4b6fddeea11066a1c78f09bfe39a913b39ad6d
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,6 +131,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 1064838955}
+  - component: {fileID: 1064838954}
+  - component: {fileID: 1064838953}
+=======
   - component: {fileID: 430504828}
   - component: {fileID: 430504827}
   m_Layer: 0
@@ -217,6 +226,7 @@ GameObject:
   - component: {fileID: 890892239}
   - component: {fileID: 890892238}
   - component: {fileID: 890892237}
+>>>>>>> 4f4b6fddeea11066a1c78f09bfe39a913b39ad6d
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -224,21 +234,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &890892237
+--- !u!81 &1064838953
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890892236}
+  m_GameObject: {fileID: 1064838952}
   m_Enabled: 1
---- !u!20 &890892238
+--- !u!20 &1064838954
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890892236}
+  m_GameObject: {fileID: 1064838952}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -283,13 +293,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &890892239
+--- !u!4 &1064838955
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890892236}
+  m_GameObject: {fileID: 1064838952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -302,5 +312,9 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< HEAD
+  - {fileID: 1064838955}
+=======
   - {fileID: 890892239}
   - {fileID: 430504828}
+>>>>>>> 4f4b6fddeea11066a1c78f09bfe39a913b39ad6d
