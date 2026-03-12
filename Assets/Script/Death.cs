@@ -1,3 +1,4 @@
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class Death : MonoBehaviour
@@ -20,5 +21,6 @@ public class Death : MonoBehaviour
         player.SetActive(false);
         deadPanel.SetActive(true);
         menuPanel.SetActive(false);
+        Time.timeScale = 0;
     }
 }
