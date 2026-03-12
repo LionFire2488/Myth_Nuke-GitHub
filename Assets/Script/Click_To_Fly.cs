@@ -7,6 +7,11 @@ public class Click_To_Fly : MonoBehaviour
 
     public int flyFroce = 1;
 
+    void Start()
+    {
+        Time.timeScale = 0;
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
