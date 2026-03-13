@@ -4,6 +4,7 @@ using UnityEngine;
 public class Click_To_Fly : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public AudioSource AudioSource;
 
     public int flyFroce = 1;
 
@@ -17,6 +18,7 @@ public class Click_To_Fly : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             rb.linearVelocity = new Vector3(0,flyFroce,0);
+            AudioSource.Play();
         }
     }
 }
