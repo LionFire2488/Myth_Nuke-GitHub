@@ -12,6 +12,7 @@ public class Score : MonoBehaviour
         {
             score += 1;
             scoreText.text = "Score : " + score;
+            Destroy(gameObject);
         }
     }
 }
