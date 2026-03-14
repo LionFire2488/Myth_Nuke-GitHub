@@ -1085,7 +1085,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 143982408}
         m_TargetAssemblyTypeName: Load_Play_Scene, Assembly-CSharp
-        m_MethodName: Load_Quiz_Scene
+        m_MethodName: Load_Quiz_1_Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
