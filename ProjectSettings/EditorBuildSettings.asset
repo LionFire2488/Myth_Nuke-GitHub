@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizScene/Quiz_10.unity
     guid: fa4c0c87c73b4f64bb4fe3d6b6ca00e8
+  - enabled: 1
+    path: Assets/Scenes/QuizScene/Final_Quiz.unity
+    guid: 5bb5d98d4af2db34f93e9f17947fdba3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

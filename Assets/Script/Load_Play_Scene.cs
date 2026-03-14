@@ -72,7 +72,7 @@ public class Load_Play_Scene : MonoBehaviour
 
     public void Load_Final_Quiz_Scene()
     {
-        SceneManager.LoadScene("Load_Final_Quiz_Scene");
+        SceneManager.LoadScene("Final_Quiz");
     }
     
     public void Exit()
