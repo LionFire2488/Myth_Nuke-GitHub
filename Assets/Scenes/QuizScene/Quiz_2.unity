@@ -1121,7 +1121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 596963893}
+      - m_Target: {fileID: 1863488290}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -2438,7 +2438,7 @@ GameObject:
   - component: {fileID: 1863488291}
   - component: {fileID: 1863488290}
   m_Layer: 0
-  m_Name: sound
+  m_Name: click
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2637,5 +2637,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 309753238}
   - {fileID: 781635225}
-  - {fileID: 1725047612}
   - {fileID: 1863488291}
+  - {fileID: 1725047612}

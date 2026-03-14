@@ -6,7 +6,7 @@ public class Load_Play_Scene : MonoBehaviour
     public void Load_In_Game_Scene()
     {
         SceneManager.LoadScene("In_Game");
-        Score.score = 0;
+        Trigger_Score.score = 0;
     }
 
     public void Load_Main_Menu_Scene()

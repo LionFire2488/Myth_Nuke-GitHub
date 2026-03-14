@@ -693,7 +693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -54.99994, y: -60.00006}
+  m_AnchoredPosition: {x: -55, y: -60}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467397357
@@ -1757,7 +1757,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3e7b796ac8e628f4a8cfa677b7452529, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 827120134}
         m_TargetAssemblyTypeName: Quiz_Score, Assembly-CSharp
-        m_MethodName: STM
+        m_MethodName: addScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2637,5 +2637,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 309753238}
   - {fileID: 781635225}
-  - {fileID: 1725047612}
   - {fileID: 529775561}
+  - {fileID: 1725047612}
