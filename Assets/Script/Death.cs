@@ -5,6 +5,7 @@ public class Death : MonoBehaviour
     public GameObject player;
     public GameObject deadCanvas;
     public GameObject menuCanvas;
+    public AudioSource audioSource;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,6 +18,7 @@ public class Death : MonoBehaviour
     public void Die()
     {
         Debug.Log("Dead");
+        audioSource.Play();
         player.SetActive(false);
         deadCanvas.SetActive(true);
         menuCanvas.SetActive(false);
