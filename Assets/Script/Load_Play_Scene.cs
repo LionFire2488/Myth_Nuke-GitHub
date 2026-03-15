@@ -75,6 +75,11 @@ public class Load_Play_Scene : MonoBehaviour
         SceneManager.LoadScene("Final_Quiz");
     }
     
+    public void Load_Myth_Vs_Facts_Scene()
+    {
+        SceneManager.LoadScene("MythVsFacts");
+    }
+    
     public void Exit()
     {
         Application.Quit();

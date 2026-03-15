@@ -6,6 +6,6 @@ public class Show_Play_Score : MonoBehaviour
     public TextMeshProUGUI scoreText;
     void Update()
     {
-        scoreText.text = "คุณได้ "+Trigger_Score.score+" คะแนน";
+        scoreText.text = "Score : "+Trigger_Score.score;
     }
 }

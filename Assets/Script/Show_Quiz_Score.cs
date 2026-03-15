@@ -6,7 +6,7 @@ public class Show_Quiz_Score : MonoBehaviour
     public TextMeshProUGUI scoreText;
     void Start()
     {
-        scoreText.text = "คุณได้คะแนน "+Quiz_Score.score+"/10";
+        scoreText.text = Quiz_Score.score+"/10";
     }
 
 }
