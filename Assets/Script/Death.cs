@@ -1,11 +1,10 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class Death : MonoBehaviour
 {
     public GameObject player;
-    public GameObject deadPanel;
-    public GameObject menuPanel;
+    public GameObject deadCanvas;
+    public GameObject menuCanvas;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -19,8 +18,8 @@ public class Death : MonoBehaviour
     {
         Debug.Log("Dead");
         player.SetActive(false);
-        deadPanel.SetActive(true);
-        menuPanel.SetActive(false);
+        deadCanvas.SetActive(true);
+        menuCanvas.SetActive(false);
         Time.timeScale = 0;
     }
 }
